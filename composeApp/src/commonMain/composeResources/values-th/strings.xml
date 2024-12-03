@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="label_title">ชื่อ</string>
+    <string name="label_artist">ศิลปิน</string>
+    <string name="label_date">วันที่</string>
+    <string name="label_dimensions">ขนาด</string>
+    <string name="label_medium">กลาง</string>
+    <string name="label_department">แผนก</string>
+    <string name="label_repository">คลัง</string>
+    <string name="label_credits">ที่มา</string>
+
+    <string name="back">กลับ</string>
+
+    <string name="no_data_available">ไม่สามารถเข้าถึงข้อมูล</string>
+
+    <string name="hello">สวัสดี</string>
+    <string name="welcome">ยินดีต้อนรับ</string>
+</resources>

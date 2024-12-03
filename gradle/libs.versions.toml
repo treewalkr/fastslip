@@ -1,0 +1,43 @@
+[versions]
+accompanist = "0.36.0"
+agp = "8.6.1"
+androidx-activity-ccompose = "1.9.3"
+barcode-scanning = "17.3.0"
+compose-multiplatform = "1.6.11"
+kamel = "0.9.5"
+koin = "4.0.0"
+kotlin = "2.0.21"
+ktor = "2.3.12"
+navigation-compose = "2.8.0-alpha10"
+cameraX = "1.4.0"
+compose-ui = "1.7.5"
+
+[libraries]
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity-ccompose" }
+androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose-ui" }
+androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose-ui" }
+androidx-ui-graphics = { module = "androidx.compose.ui:ui-graphics", version.ref = "compose-ui" }
+barcode-scanning = { module = "com.google.mlkit:barcode-scanning", version.ref = "barcode-scanning" }
+kamel = { module = "media.kamel:kamel-image", version.ref = "kamel" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+koin-compose-viewmodel = { module = "io.insert-koin:koin-compose-viewmodel", version.ref = "koin" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktor" }
+ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigation-compose" }
+cameraX-core = { module = "androidx.camera:camera-core", version.ref = "cameraX" }
+cameraX-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraX" }
+cameraX-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "cameraX" }
+cameraX-video = { module = "androidx.camera:camera-video", version.ref = "cameraX" }
+cameraX-view = { module = "androidx.camera:camera-view", version.ref = "cameraX" }
+cameraX-extensions = { module = "androidx.camera:camera-extensions", version.ref = "cameraX" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "compose-multiplatform" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlinxSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "753878995177",
+    "project_id": "slipchecker",
+    "storage_bucket": "slipchecker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753878995177:android:3e1cb24b844b8a4f06a078",
+        "android_client_info": {
+          "package_name": "com.xdev.fastslip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx8PiyWqL__nVyadr31Ns8LBQV5nWEcX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "com.xdev.fastslip.data.proto";
+option java_outer_classname = "BankAccountProto";
+
+message BankAccount {
+  string title = 1;
+  string bankName = 2;
+  string accountNumber = 3;
+  bool isEnabled = 4;
+}
+
+message BankAccountList {
+  repeated BankAccount accounts = 1;
+}
